@@ -1,4 +1,4 @@
-# IT326-Project-Student-Stress
+# IT326-Project-StudentStress
 ## Student Stress Factors: A Comprehensive Analysis
 
 ## Motivation
