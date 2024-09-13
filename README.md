@@ -8,4 +8,4 @@ Student stress is a growing issue that affects mental health, academic performan
 - Ghena Almogayad 444203140
 - Raneeem Nasser 444200975
 - Ghaida Alotaibi 444200429
-- Juri 
+- Juri Alghamdi 444201188
