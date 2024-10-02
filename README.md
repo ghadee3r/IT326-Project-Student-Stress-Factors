@@ -6,6 +6,6 @@ Student stress is a growing issue that affects mental health, academic performan
 ## Student Names
 - Ghadeer Alnuwaysir 444200420
 - Ghena Almogayad 444203140
-- Raneeem Nasser 444200975
+- Raneem Nasser 444200975
 - Ghaida Alotaibi 444200429
 - Juri Alghamdi 444201188
