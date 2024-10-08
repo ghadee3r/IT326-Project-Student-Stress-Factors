@@ -9,3 +9,6 @@ Student stress is a growing issue that affects mental health, academic performan
 - Raneem Nasser 444200975
 - Ghaida Alotaibi 444200429
 - Juri Alghamdi 444201188
+
+## Missing values
+In this step, we are detecting the missing values to ensures that the dataset is complete and reliable for analysis, we noticed that our dataset has no missing values.
