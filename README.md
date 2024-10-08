@@ -12,3 +12,9 @@ Student stress is a growing issue that affects mental health, academic performan
 
 ## Missing values
 In this step, we are detecting the missing values to ensures that the dataset is complete and reliable for analysis, we noticed that our dataset has no missing values.
+
+## Statistical measures
+We performed statistical measures analysis on the dataset, including measures of dispersion of data and central tendencies, such as mean, median, mode, midrange, range, quartiles, interquartile range (IQR), variance, and  Standard deviation for all numeric attributes.
+
+## Outliers
+We performed outlier detection using the Interquartile Range (IQR) method on all numeric attributes in the dataset. For each column, we calculated the IQR as the range between the first quartile (Q1) and the third quartile (Q3), and identified outliers as values falling below Q1 - 1.5 * IQR or above Q3 + 1.5 * IQR. After detecting the outliers, we removed them to retain a clean dataset with values within the acceptable range.
