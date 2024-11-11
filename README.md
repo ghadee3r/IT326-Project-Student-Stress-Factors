@@ -3,10 +3,8 @@
 ## Motivation
 Student stress is a growing issue that affects mental health, academic performance, and overall well-being. We chose this dataset to gain a deeper understanding of the factors contributing to student stress. By analyzing the dataset, we aim to uncover insights that can help develop strategies for managing stress more effectively and improving students' overall health and performance.
 
-
 ## Missing values
 In this step, we assessed the completeness and reliability of the dataset by checking for missing values. Our analysis confirmed that the dataset contains no missing values, ensuring its readiness for further analysis.
-
 
 ## Statistical measures
 We conducted a statistical analysis of the dataset, examining measures of central tendency and dispersion for all numeric attributes. This included calculations of the mean, median, mode, midrange, range, quartiles, interquartile range (IQR), variance, and standard deviation. These measures provide a comprehensive overview of the data distribution.
@@ -20,13 +18,16 @@ We performed outlier detection using the Interquartile Range (IQR) method on all
 ## Discretization
 Discretization involves converting continuous data into discrete bins or categories, which can be beneficial for certain machine learning algorithms and analyses. This approach enhances interpretability, allowing for easier analysis and visualization. In our project, we employed the 'cut' function from the pandas library to discretize the anxiety_level, self_esteem, and depression columns, as their continuous nature was not necessary for our analysis. During this process, we defined bin edges and corresponding labels, ensuring that we accurately reflected the distribution of scores without distorting the underlying information. Finally, we compared the original values of these columns with the new categorical values to clearly illustrate the changes made.
 
-
-
 ## Min-Max Normalization
 We applied Min-Max normalization to the dataset to scale the numeric features to a range between 0 and This process enhances the performance of machine learning models by ensuring that all features contribute equally to the distance calculations and prevents features with larger ranges from dominating the model's behavior. During normalization, we excluded the class label (stress_level) because it is the target variable we aim to predict, and including it would distort the scaling process. Additionally, we did not normalize the mental_health_history feature, as it is a binary attribute and normalization would not provide meaningful insights for its interpretation. We focused on the important numeric features while keeping the target variable unchanged, which helps prepare the data for analysis and modeling.
 
 ## Feature Selection
 We chose the filtering selection method to focus on the most relevant attributes impacting student stress levels, thereby enhancing model performance and interpretability. We calculated the absolute correlation of each feature with the target variable (stress_level) and applied correlation analysis to select features based on their relationships. We set a threshold of 0.7 to identify features that have a strong correlation with the target variable, retaining only those that met this criterion. This selection process involved excluding the target variable itself and compiling a new DataFrame with the relevant features, allowing us to streamline our analysis and effectively identify key factors influencing student stress. If a threshold of 0.7 selected only 10 features—'self_esteem', 'bullying', 'sleep_quality', 'future_career_concerns', 'anxiety_level', 'depression', 'academic_performance', 'headache', 'safety', and 'basic_needs'—it indicates that those features have a strong correlation (greater than 0.7) with the target variable (stress_level), suggesting that these features are likely to be the most relevant predictors for stress levels in our dataset. After cleaning and filtering the dataset, we ended up with 10 columns, but we added the class label (stress_level) back in, resulting in a final dataset with 11 columns.
+
+## Classification
+
+
+## Clustring
 
 
 ## Student Names
