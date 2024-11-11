@@ -30,7 +30,7 @@ We tested model performance with different data splits: 70%-30%, 80%-20%, and 90
 For decision trees, the Gini index created a simpler, more accurate tree, especially in the 80%-20% split. Both Gini and entropy worked well, but the 80%-20% split was optimal, balancing training and test data for the best accuracy and reduced overfitting.
 
 ## Clustring
-
+This project also includes a K-means clustering analysis to explore the dataset's underlying structure, focusing on grouping data points based on similarity across mental health and lifestyle factors. We evaluated clustering performance for K values of 2, 3, and 4, aiming to balance simplicity and meaningful separation of groups. After scaling the features, we computed the within-cluster sum of squares (WCSS) and silhouette scores for each K value, and visualized the results with Elbow and Silhouette score plots. The analysis indicated that a 4-cluster configuration provided the best silhouette score and minimized WCSS, capturing the data’s structure effectively. This clustering analysis forms a foundation for understanding participant experiences and guides further analysis on potential interventions and research directions.
 
 ## Student Names
 - Ghadeer Alnuwaysir 444200420
