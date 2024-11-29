@@ -30,7 +30,11 @@ We tested model performance with different data splits: 70%-30%, 80%-20%, and 90
 For decision trees, the Gini index created a simpler, more accurate tree, especially in the 80%-20% split. Both Gini and entropy worked well, but the 80%-20% split was optimal for Gini, and the 70%-30% for Entropy, balancing training and test data for the best accuracy and reduced overfitting.
 
 ## Clustring
-This project also includes a K-means clustering analysis to explore the dataset's underlying structure, focusing on grouping data points based on similarity across mental health and lifestyle factors. We evaluated clustering performance for K values of 2, 3, and 4, aiming to balance simplicity and meaningful separation of groups. After scaling the features, we computed the within-cluster sum of squares (WCSS) and silhouette scores for each K value, and visualized the results with Elbow and Silhouette score plots. The analysis indicated that a 4-cluster configuration provided the best silhouette score and minimized WCSS, capturing the data’s structure effectively. This clustering analysis forms a foundation for understanding participant experiences and guides further analysis on potential interventions and research directions.
+This project includes a K-means clustering analysis to explore the dataset's structure, focusing on grouping data points based on mental health and lifestyle factors. We evaluated K values of 2, 3, and 4 to achieve a balance between simplicity and meaningful separation.
+
+The analysis showed that the within-cluster sum of squares (WCSS) decreases with increasing K, with the most significant improvement from K = 2 to K = 3. The silhouette score peaked at K = 4, but the increase from K = 3 to K = 4 was minimal, indicating diminishing returns. K = 4 also introduced overlapping regions, while K = 3 provided clearer and more interpretable groups.
+
+Ultimately, the optimal configuration is **K = 3**, as it balances compactness and separation. This clustering analysis lays the groundwork for understanding participant experiences and guides further research on potential interventions.
 
 ## Student Names
 - Ghadeer Alnuwaysir 444200420
